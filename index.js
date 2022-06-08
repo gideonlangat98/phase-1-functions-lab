@@ -1,14 +1,14 @@
 // Code your solution in this file!
-function distanceFromHqInBlocks(blockNumber) {
-    if(blockNumber > 42) {
-        return blockNumber - 42;
+function distanceFromHqInBlocks(blockDistance) {
+    if(blockDistance > 42) {
+        return blockDistance - 42;
     }else{
-        return 42 - blockNumber;
+        return 42 - blockDistance;
     }
 }
 
-function distanceFromHqInFeet(blockNumber) {
-    return distanceFromHqInBlocks(blockNumber) * 264;
+function distanceFromHqInFeet(blockDistance) {
+    return distanceFromHqInBlocks(blockDistance) * 264;
 }
 
 function distanceTravelledInFeet(start, destination) {
